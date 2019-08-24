@@ -5,7 +5,6 @@ public class hW2intInitModulo {
 Afisati produsul dintre restul impartirii acesteia la 9 si dublul valorii ultimei cifre.
 */
         int intValue = 123;
-        System.out.println(intValue % 9); //remainder after dividing intValue by 9
-        System.out.println((intValue % 10) * 2); //last digit from intValue multiplied by 2
+        System.out.println((intValue % 9)*((intValue % 10) * 2));
     }
 }
