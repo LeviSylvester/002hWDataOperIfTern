@@ -1,5 +1,3 @@
-public class hW1DataVarPrintBit {
-    public static void main(String[] args) {
 /*
 1.Scrieti un program in care sa declarati 8 variabile de tipul
 byte, short, int, long, float, double, char, boolean, numite corespunzator.
@@ -11,6 +9,9 @@ Ex: byte byteValue = 17;
     System.out.println(8); //dimensiunea pe biti
     // .....
 */
+public class Hw1DataVarPrintBit {
+    public static void main(String[] args) {
+        //every value is the maximum of it's data type
         byte byteValue = 127;
         System.out.println(byteValue);
         System.out.println(8); //size in bits
